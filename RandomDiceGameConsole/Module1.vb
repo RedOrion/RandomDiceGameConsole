@@ -58,7 +58,8 @@
         	End If
         
         Else
-        	Die
+        	Console.WriteLine("Press Enter to choose 1 or 2")
+        	Console.ReadKey()
         
     End Sub
 
