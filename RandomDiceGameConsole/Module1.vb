@@ -42,7 +42,7 @@
        		Randomize()
         	Dim twosixsideddie As Integer = CInt(Int((12 * Rnd()) + 1))
         	Console.WriteLine("Die Role")
-        	Console.WriteLine(sixsideddie)
+        	Console.WriteLine(twosixsideddie)
 
         	Console.WriteLine("Press Enter when you are ready to see results")
         	Console.ReadKey()
@@ -57,7 +57,7 @@
             		Console.ReadKey()
         	End If
         
-        Else
+        End If
         	Console.WriteLine("Press Enter to choose 1 or 2")
         	Console.ReadKey()
         
