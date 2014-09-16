@@ -12,7 +12,7 @@
         	Console.WriteLine("Chosen Value")
         	Console.WriteLine(chosenValue)
 
-		 	Console.ReadKey()
+		Console.ReadKey()
        		Randomize()
         	Dim sixsideddie As Integer = CInt(Int((6 * Rnd()) + 1))
         	Console.WriteLine("Die Role")
@@ -22,13 +22,13 @@
         	Console.ReadKey()
 
         	If chosenValue = sixsideddie Then
-            	Console.WriteLine("You Won")
-            	'Console.WriteLine(chosenValue "=" sixsideddie)
-            	Console.ReadKey()
+            		Console.WriteLine("You Won")
+            		'Console.WriteLine(chosenValue "=" sixsideddie)
+            		Console.ReadKey()
         	Else
-            	Console.WriteLine("You Lost")
-            	'Console.WriteLine(chosenValue "≠" sixsideddie)
-            	Console.ReadKey()
+            		Console.WriteLine("You Lost")
+            		'Console.WriteLine(chosenValue "≠" sixsideddie)
+            		Console.ReadKey()
         	End If
         
         ElseIf chosenDie = 2 Then
@@ -38,7 +38,7 @@
         	Console.WriteLine("Chosen Value")
         	Console.WriteLine(chosenValue)
 
-		 	Console.ReadKey()
+		Console.ReadKey()
        		Randomize()
         	Dim twosixsideddie As Integer = CInt(Int((12 * Rnd()) + 1))
         	Console.WriteLine("Die Role")
@@ -48,13 +48,13 @@
         	Console.ReadKey()
 
         	If chosenValue = twosixsideddie Then
-            	Console.WriteLine("You Won")
-            	'Console.WriteLine(chosenValue "=" twosixsideddie)
-            	Console.ReadKey()
+            		Console.WriteLine("You Won")
+            		'Console.WriteLine(chosenValue "=" twosixsideddie)
+            		Console.ReadKey()
         	Else
-            	Console.WriteLine("You Lost")
-            	'Console.WriteLine(chosenValue "≠" twosixsideddie)
-            	Console.ReadKey()
+            		Console.WriteLine("You Lost")
+            		'Console.WriteLine(chosenValue "≠" twosixsideddie)
+            		Console.ReadKey()
         	End If
         
         Else
