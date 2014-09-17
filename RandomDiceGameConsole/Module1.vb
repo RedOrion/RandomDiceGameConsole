@@ -5,7 +5,7 @@
     	Console.WriteLine("Choose 1 or 2 Dice")
     	Dim chosenDice = Console.ReadLine()
     	
-    	If chosenDie = 1 Then
+    	If chosenDice = 1 Then
     
         	Console.WriteLine("Please Select a Value between 1 and 6")
         	Dim chosenValue = Console.ReadLine()
@@ -31,7 +31,7 @@
             		Console.ReadKey()
         	End If
         
-        ElseIf chosenDie = 2 Then
+        ElseIf chosenDice = 2 Then
         	
         	Console.WriteLine("Please Select a Value between 1 and 12")
         	Dim chosenValue = Console.ReadLine()
@@ -39,12 +39,13 @@
         	Console.WriteLine(chosenValue)
 
 		Console.ReadKey()
-       		Randomize()
-        	Dim onesixsideddie As Integer = CInt(Int((6 * Rnd()) + 1))
+            	Randomize()
+        	 Dim onesixsideddie As Integer = CInt(Int((6 * Rnd()) + 1))
             	Dim twosixsideddie As Integer = CInt(Int((6 * Rnd()) + 1))
-            	onesixsideddie +twosixsideddie = totaldierole
-        	Console.WriteLine("Die Role")
-        	Console.WriteLine(totaldierole)
+            	Dim totaldierole As Integer
+            	totaldierole = onesixsideddie + twosixsideddie
+            	Console.WriteLine("Die Role")
+            	Console.WriteLine(totaldierole)
 
         	Console.WriteLine("Press Enter when you are ready to see results")
         	Console.ReadKey()
