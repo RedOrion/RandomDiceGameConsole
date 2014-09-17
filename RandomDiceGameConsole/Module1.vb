@@ -14,20 +14,20 @@
 
 		Console.ReadKey()
 		Randomize()
-		Dim sixsideddie As Integer = CInt(Int((6 * Rnd()) + 1))
+		Dim totaldierole As Integer = CInt(Int((6 * Rnd()) + 1))
 		Console.WriteLine("Die Role")
-		Console.WriteLine(sixsideddie)
+		Console.WriteLine(totaldierole)
 
 		Console.WriteLine("Press Enter when you are ready to see results")
 		Console.ReadKey()
 
-		If chosenValue = sixsideddie Then
+		If chosenValue = totaldierole Then
             		Console.WriteLine("You Won")
-            		'Console.WriteLine(chosenValue "=" sixsideddie)
+            		'Console.WriteLine(chosenValue "=" totaldierole)
             		Console.ReadKey()
 		Else
             		Console.WriteLine("You Lost")
-            		'Console.WriteLine(chosenValue "≠" sixsideddie)
+            		'Console.WriteLine(chosenValue "≠" totaldierole)
             		Console.ReadKey()
 		End If
         
