@@ -23,11 +23,9 @@ Module Module1
 
                 If chosenValue = totaldierole Then
                     Console.WriteLine("You Won")
-                    'Console.WriteLine(chosenValue "=" totaldierole)
                     Console.ReadKey()
                 Else
                     Console.WriteLine("You Lost")
-                    'Console.WriteLine(chosenValue "≠" totaldierole)
                     Console.ReadKey()
                 End If
 
@@ -52,11 +50,9 @@ Module Module1
 
                 If chosenValue = totaldierole Then
                     Console.WriteLine("You Won")
-                    'Console.WriteLine(chosenValue "=" totaldierole)
                     Console.ReadKey()
                 Else
                     Console.WriteLine("You Lost")
-                    'Console.WriteLine(chosenValue "≠" totaldierole)
                     Console.ReadKey()
                 End If
 
