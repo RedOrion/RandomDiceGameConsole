@@ -55,6 +55,13 @@ Module Module1
                     Console.WriteLine("You Lost")
                     Console.ReadKey()
                 End If
+            ElseIf chosenDice <> 2 Then
+                Console.WriteLine("Value was incorrect")
+                Console.WriteLine("You need to choose either 1 or 2")
+            ElseIf chosenDice <> 1 Then
+                Console.WriteLine("Value was incorrect")
+                Console.WriteLine("You need to choose either 1 or 2")
+            Else
 
             End If
             Console.WriteLine("Restarting Game")
