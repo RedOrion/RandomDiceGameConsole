@@ -27,10 +27,26 @@ Module Module1
     End Sub
 
     Sub OneDie()
-        Console.WriteLine("Please Select a Value between 1 and 6")
-        Dim chosenValue = Console.ReadLine()
-        Console.WriteLine("Chosen Value")
-        Console.WriteLine(chosenValue)
+        Do
+            Console.WriteLine("Please Select a Value between 1 and 6")
+            Dim chosenValue = Console.ReadLine()
+            Console.WriteLine("Chosen Value")
+            Console.WriteLine(chosenValue)
+            If chosenValue = 1 Then
+                Exit Do
+            ElseIf chosenValue = 2 Then
+                Exit Do
+            ElseIf chosenValue = 3 Then
+                Exit Do
+            ElseIf chosenValue = 4 Then
+                Exit Do
+            ElseIf chosenValue = 5 Then
+                Exit Do
+            ElseIf chosenValue = 6 Then
+                Exit Do
+            ElseIf chosenValue Then
+            End If
+        Loop
 
         Console.WriteLine("Press Enter to see the die role.")
         Console.ReadKey()
@@ -41,19 +57,47 @@ Module Module1
         Console.ReadKey()
 
         If chosenValue = totaldierole Then
-            Console.WriteLine("You Won!")
+            Console.WriteLine("You Won")
             Console.ReadKey()
         ElseIf chosenValue <> totaldierole Then
-            Console.WriteLine("You Lost!")
+            Console.WriteLine("You Lost")
             Console.ReadKey()
         End If
+
     End Sub
 
     Sub TwoDice()
-        Console.WriteLine("Please Select a Value between 1 and 12.")
-        Dim chosenValue = Console.ReadLine()
-        Console.WriteLine("Chosen Value")
-        Console.WriteLine(chosenValue)
+        Do
+            Console.WriteLine("Please Select a Value between 1 and 12.")
+            Dim chosenValue = Console.ReadLine()
+            Console.WriteLine("Chosen Value")
+            Console.WriteLine(chosenValue)
+            If chosenValue = 1 Then
+                Exit Do
+            ElseIf chosenValue = 2 Then
+                Exit Do
+            ElseIf chosenValue = 3 Then
+                Exit Do
+            ElseIf chosenValue = 4 Then
+                Exit Do
+            ElseIf chosenValue = 5 Then
+                Exit Do
+            ElseIf chosenValue = 6 Then
+                Exit Do
+            ElseIf chosenValue = 7 Then
+                Exit Do
+            ElseIf chosenValue = 8 Then
+                Exit Do
+            ElseIf chosenValue = 9 Then
+                Exit Do
+            ElseIf chosenValue = 10 Then
+                Exit Do
+            ElseIf chosenValue = 11 Then
+                Exit Do
+            ElseIf chosenValue = 12 Then
+                Exit Do
+            End If
+        Loop
 
         Console.WriteLine("Press Enter to see the die roles.")
         Console.ReadKey()
@@ -73,6 +117,7 @@ Module Module1
             Console.WriteLine("You Lost")
             Console.ReadKey()
         End If
+
     End Sub
 
 
@@ -88,7 +133,6 @@ Module Module1
         Else : ContinueYesOrNo = 1
             Console.WriteLine("New Game Starting Now.")
         End If
-
     End Sub
 
 End Module
